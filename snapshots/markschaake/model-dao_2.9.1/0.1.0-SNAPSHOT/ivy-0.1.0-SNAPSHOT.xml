@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="markschaake" module="model-dao_2.9.1" revision="0.1.0-SNAPSHOT" status="release" publication="20120804210732">
+	<info organisation="markschaake" module="model-dao_2.9.1" revision="0.1.0-SNAPSHOT" status="release" publication="20120804211737">
 		<description>
 		model-dao
 		</description>

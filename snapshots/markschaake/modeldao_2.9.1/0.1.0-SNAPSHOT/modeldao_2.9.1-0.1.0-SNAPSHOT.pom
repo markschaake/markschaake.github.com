@@ -4,9 +4,9 @@
     <groupId>markschaake</groupId>
     <artifactId>modeldao_2.9.1</artifactId>
     <packaging>jar</packaging>
-    <description>modelDao</description>
+    <description>modeldao</description>
     <version>0.1.0-SNAPSHOT</version>
-    <name>modelDao</name>
+    <name>modeldao</name>
     <organization>
         <name>markschaake</name>
     </organization>

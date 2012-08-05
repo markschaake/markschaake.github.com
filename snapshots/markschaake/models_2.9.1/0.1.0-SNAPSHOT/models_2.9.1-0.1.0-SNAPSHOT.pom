@@ -2,11 +2,11 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>markschaake</groupId>
-    <artifactId>modeldao_2.9.1</artifactId>
+    <artifactId>models_2.9.1</artifactId>
     <packaging>jar</packaging>
-    <description>modeldao</description>
+    <description>models</description>
     <version>0.1.0-SNAPSHOT</version>
-    <name>modeldao</name>
+    <name>models</name>
     <organization>
         <name>markschaake</name>
     </organization>
@@ -18,23 +18,29 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>org.specs2</groupId>
-            <artifactId>specs2_2.9.1</artifactId>
-            <version>1.11</version>
+            <groupId>play</groupId>
+            <artifactId>play_2.9.1</artifactId>
+            <version>2.0.3</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>play</groupId>
+            <artifactId>play-test_2.9.1</artifactId>
+            <version>2.0.3</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
     <repositories>
         <repository>
-            <id>snapshots</id>
-            <name>snapshots</name>
-            <url>http://oss.sonatype.org/content/repositories/snapshots/</url>
+            <id>TypesafeReleasesRepository</id>
+            <name>Typesafe Releases Repository</name>
+            <url>http://repo.typesafe.com/typesafe/releases/</url>
             <layout>default</layout>
         </repository>
         <repository>
-            <id>releases</id>
-            <name>releases</name>
-            <url>http://oss.sonatype.org/content/repositories/releases/</url>
+            <id>TypesafeSnapshotsRepository</id>
+            <name>Typesafe Snapshots Repository</name>
+            <url>http://repo.typesafe.com/typesafe/snapshots/</url>
             <layout>default</layout>
         </repository>
     </repositories>

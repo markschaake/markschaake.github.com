@@ -25,6 +25,12 @@
     </dependencies>
     <repositories>
         <repository>
+            <id>MarkSchaake</id>
+            <name>Mark Schaake</name>
+            <url>http://markschaake.github.com/snapshots/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
             <id>snapshots</id>
             <name>snapshots</name>
             <url>http://oss.sonatype.org/content/repositories/snapshots/</url>

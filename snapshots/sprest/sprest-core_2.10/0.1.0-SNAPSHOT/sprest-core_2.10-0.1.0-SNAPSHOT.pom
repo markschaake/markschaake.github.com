@@ -83,5 +83,11 @@
             <url>http://repo.typesafe.com/typesafe/releases/</url>
             <layout>default</layout>
         </repository>
+        <repository>
+            <id>MarkSchaake</id>
+            <name>Mark Schaake</name>
+            <url>http://markschaake.github.com/snapshots/</url>
+            <layout>default</layout>
+        </repository>
     </repositories>
 </project>

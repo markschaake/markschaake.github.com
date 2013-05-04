@@ -2,7 +2,7 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
     <modelVersion>4.0.0</modelVersion>
     <groupId>sprest</groupId>
-    <artifactId>sprest-auth_2.10</artifactId>
+    <artifactId>sprest-security_2.10</artifactId>
     <packaging>jar</packaging>
     <description>A suite of libraries leveraging Spray</description>
     <version>0.1.0-SNAPSHOT</version>
@@ -13,7 +13,7 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-    <name>sprest-auth</name>
+    <name>sprest-security</name>
     <inceptionYear>2013</inceptionYear>
     <organization>
         <name>sprest</name>

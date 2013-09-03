@@ -38,12 +38,12 @@
         <dependency>
             <groupId>io.spray</groupId>
             <artifactId>spray-can</artifactId>
-            <version>1.2-M8</version>
+            <version>1.2-20130822</version>
         </dependency>
         <dependency>
             <groupId>io.spray</groupId>
             <artifactId>spray-routing</artifactId>
-            <version>1.2-M8</version>
+            <version>1.2-20130822</version>
         </dependency>
         <dependency>
             <groupId>io.spray</groupId>
@@ -69,7 +69,7 @@
         <dependency>
             <groupId>io.spray</groupId>
             <artifactId>spray-testkit</artifactId>
-            <version>1.2-M8</version>
+            <version>1.2-20130822</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -78,6 +78,12 @@
             <id>sprayrepo</id>
             <name>spray repo</name>
             <url>http://repo.spray.io/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
+            <id>spraynightlies</id>
+            <name>spray nightlies</name>
+            <url>http://nightlies.spray.io/</url>
             <layout>default</layout>
         </repository>
         <repository>

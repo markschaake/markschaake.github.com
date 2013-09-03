@@ -59,6 +59,12 @@
             <layout>default</layout>
         </repository>
         <repository>
+            <id>spraynightlies</id>
+            <name>spray nightlies</name>
+            <url>http://nightlies.spray.io/</url>
+            <layout>default</layout>
+        </repository>
+        <repository>
             <id>MarkSchaake</id>
             <name>Mark Schaake</name>
             <url>http://markschaake.github.com/snapshots/</url>

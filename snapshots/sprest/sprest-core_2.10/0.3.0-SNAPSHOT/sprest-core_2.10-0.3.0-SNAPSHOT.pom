@@ -38,12 +38,12 @@
         <dependency>
             <groupId>io.spray</groupId>
             <artifactId>spray-can</artifactId>
-            <version>1.2-20130822</version>
+            <version>1.2-20131011</version>
         </dependency>
         <dependency>
             <groupId>io.spray</groupId>
             <artifactId>spray-routing</artifactId>
-            <version>1.2-20130822</version>
+            <version>1.2-20131011</version>
         </dependency>
         <dependency>
             <groupId>io.spray</groupId>
@@ -69,7 +69,7 @@
         <dependency>
             <groupId>io.spray</groupId>
             <artifactId>spray-testkit</artifactId>
-            <version>1.2-20130822</version>
+            <version>1.2-20131011</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
